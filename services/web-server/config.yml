@@ -28,7 +28,7 @@ defaults:
 
   # Configuration of access to other taskcluster components
   taskcluster:
-    rootUrl: !env TASKCLUSTER_ROOT_URL
+    rootUrl: https://taskcluster.net
     credentials:
       clientId: !env TASKCLUSTER_CLIENT_ID
       accessToken: !env TASKCLUSTER_ACCESS_TOKEN
